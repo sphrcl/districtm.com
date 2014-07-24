@@ -1,0 +1,377 @@
+/* Page Background */
+html {
+	/*background: url("/sites/all/themes/dm/images/bg/city.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+	text-transform: uppercase;
+	background-color: #000000;
+}
+
+.largeimage { 
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	z-index: -1000;
+}
+
+.page-node-13 .largeimage {
+	bottom: 0;
+	top: inherit !important;
+}
+
+.bgwidth { 
+	/*width: 100%;*/ 
+	min-width: 100%;
+}
+
+.bgheight { 
+	/*height: 100%; */
+	min-height: 100%;
+}
+
+.field-name-field-background-image {
+	display: none;
+}
+
+/* Circle Content Area */
+#content {
+	text-align: center;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+#content p {
+	margin: 0 0 5px;
+	line-height: 1.2em;
+}
+
+.page-node-11 #content p {
+	margin: 0 0 15px;
+}
+
+#content p em {
+	font-size: 0.833em;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.front #page {
+	/*padding-bottom: 95px;*/
+}
+
+.front #content {
+	width: 463px;
+	height: 463px;
+	margin: 136px auto 0;
+	background: url("/sites/all/themes/dm/images/home_circle.png") no-repeat center center transparent;
+}
+
+.not-front #page {
+	/*padding-bottom: 30px;*/
+}
+
+.not-front #content {
+	width: 587px;
+	height: 587px;
+	margin: 81px auto 0;
+	background: url("/sites/all/themes/dm/images/sub_circle.png") no-repeat center center transparent;
+}
+
+#content h1 {
+	padding-top: 30px;
+}
+
+.seo-h2 {
+	margin: 3px 0 8px;
+	font-size: 0.938em;
+}
+
+.page-node-8 .field-name-body p {
+	line-height: 1.667em !important;
+}
+
+.node-drink-category {
+	margin-bottom: 15px;
+	font-weight: 700;
+}
+
+.page-node-11 .node-drink-category {
+	margin-bottom: 10px;
+}
+
+.page-node-11 .block-menu-category {
+	margin-bottom: 15px;
+}
+
+.block-menu-category h2.block-title {
+	font-size: 1.125em;
+	color: #646464;
+}
+
+.node-menu-category .field-name-title h2,
+.node-drink-category h2 {
+	font-size: 0.925em;
+	margin: 10px 0 0;
+}
+
+.node-drink-category h2 strong {
+	color: #676767;
+}
+
+.node-drink-category h2 p {
+	margin: 0 !important;
+}
+
+.node-menu-category .field-name-body,
+.node-drink-category .field-name-body {
+	display: none;
+	overflow: hidden;
+	font-size: 0.75em;
+	color: #676767;
+}
+
+.node-menu-category .field-name-body p {
+	margin: 0;
+}
+
+.page-node-8 .node-menu-category .field-name-body .field-item > p {
+	margin-bottom: 10px !important;
+}
+
+.node-menu-category .field-name-body strong {
+	color: #000000;
+}
+
+.node-menu-category .field-name-body .field-item > div {
+	width: 39%;
+	float: left;
+}
+
+.node-menu-category .field-name-body .col-left {
+	padding-left: 11%;
+}
+
+.node-menu-category .field-name-body .col-left ul {
+	padding: 0;
+	margin: -7px 0 0;
+	color: #666666;
+}
+
+.node-menu-category .field-name-body .col-left li {
+	line-height: 1.2em !important;
+	list-style: none;
+	font-size: 0.833em;
+}
+
+.node-menu-category .field-name-body .col-right {
+	padding-right: 9%;
+}
+
+/* Home Page Circle Text */
+.hometext1,
+.hometext2 {
+	padding-top: 135px;
+}
+
+.hometext1 {
+}
+
+.hometext2 {
+	display: none;
+}
+
+.hometext1 p,
+.hometext2 p {
+	line-height: 1.5em !important;
+}
+
+
+/* Navigation */
+ul.menu a:hover,
+ul.menu a:active,
+ul.menu a:focus,
+ul.menu a.active,
+.block-copyright a:hover,
+.block-copyright a:active,
+.block-copyright a:focus,
+.block-copyright a.active {
+	font-weight: 700;
+}
+
+ul.menu {
+	padding: 0 0 0 15px;
+}
+
+.block-main-menu li {
+	float: left;
+	list-style: none !important;
+	margin-right: 20px;
+	text-transform: uppercase;
+}
+
+
+/* Footer Blocks */
+.bottom-wrapper {
+	width: 100%;
+	/*height: 158px;*/
+	height: 162px;
+	background: url('/sites/all/themes/dm/images/bg/shadow_bottom.png') repeat-x bottom left;
+}
+
+.front .bottom-wrapper {
+	height: 162px;
+}
+
+.region-bottom .block {
+	margin: 0;
+}
+
+.region-bottom .block p {
+	margin: 0;
+}
+
+.region-bottom .block p.leftpad {
+	padding-left: 74px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {   
+  .region-bottom .block p.leftpad {
+		padding-left: 74px;
+	} 
+}
+
+.block-logo {
+	float: left;
+}
+	
+.block-main-menu {
+	position: relative;
+	top: 23px;
+	float: left;
+}
+
+.block-address {
+	float: left;
+	clear: left;
+	padding-left: 30px;
+	font-size: 0.925em;
+	line-height: 1.2em;
+	width: 800px;
+}
+
+.block-copyright {
+	position: absolute;
+	right: 0;
+	padding-right: 30px;
+}
+
+.block-copyright .wrapper {
+	text-align: center;
+	font-size: 0.675em;
+	line-height: 1.2em;
+}
+
+.block-copyright .text-wrapper {
+	text-align: left;
+	margin-top: 6px;
+}
+
+/* Photo Gallery */
+.block-photo-gallery {
+	position: relative;
+	left: -216px;
+}
+
+.page-node-13 .field-name-body {
+	font-size: 1.313em;
+	font-weight: 700;
+	margin: 23px 0 70px;
+}
+	
+
+/* Contact Page */
+.page-node-14 .bold {
+	font-weight: 700;
+}
+
+.page-node-14 .semibold {
+	font-weight: 600;
+}
+
+.page-node-14 .smaller {
+	font-size: 0.875em;
+}
+
+.page-node-14 .smaller p {
+	margin-bottom: 14px !important;
+}
+
+.page-node-14 .phonenumber {
+	font-size: 1.188em;
+	margin-bottom: 5px !important;
+}
+
+.page-node-14 .subtitle {
+	margin: 14px 0 11px !important;
+}
+
+
+.page-node-14 .gmaplink {
+	margin-bottom: 8px !important;
+}
+
+.page-node-14 .field-name-body a,
+.page-node-14 .field-name-body a:hover {
+	color: #000000;
+}
+
+/* H1 Borders */
+.node-page h1:after {
+	content: "";
+	border-top: 2px solid #666666;
+	display: block;
+	margin: -3px auto 6px;
+}
+
+.page-node-8 h1:after,
+.page-node-9 h1:after {
+	width: 106px;
+}
+
+.page-node-10 h1:after {
+	width: 163px;
+}
+
+.page-node-11 h1:after,
+.page-node-12 h1:after,
+.page-node-13 h1:after,
+.page-node-14 h1:after {
+	width: 92px;
+}
+
+/* Random Gaps below h2 */
+.page-node-9 .seo-h2,
+.page-node-10 .seo-h2 {
+	margin-bottom: 24px;
+}
+
+.page-node-11 .seo-h2 {
+	margin-bottom: 21px;
+}
+
+.page-node-12 .seo-h2 {
+	margin-bottom: 0px;
+}
+
+/* Background Shadow */
+.shadow-wrapper {
+	height: 100%;
+	background-image: url('/sites/all/themes/dm/images/bg/shadow_top.png');
+	background-position: top left;
+	background-repeat: repeat-x;
+}
+
+
+	
