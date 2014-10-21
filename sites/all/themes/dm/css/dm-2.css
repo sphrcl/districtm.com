@@ -1,6 +1,6 @@
 /* Page Background */
 html {
-	/*background: url("//www.districtm.com/sites/all/themes/dm/images/bg/city.jpg") no-repeat center center fixed;
+	/*background: url("/sites/all/themes/dm/images/bg/city.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -65,7 +65,7 @@ html {
 	width: 463px;
 	height: 463px;
 	margin: 136px auto 0;
-	background: url("//www.districtm.com/sites/all/themes/dm/images/home_circle.png") no-repeat center center transparent;
+	background: url("/sites/all/themes/dm/images/home_circle.png") no-repeat center center transparent;
 }
 
 .not-front #page {
@@ -76,7 +76,7 @@ html {
 	width: 587px;
 	height: 587px;
 	margin: 81px auto 0;
-	background: url("//www.districtm.com/sites/all/themes/dm/images/sub_circle.png") no-repeat center center transparent;
+	background: url("/sites/all/themes/dm/images/sub_circle.png") no-repeat center center transparent;
 }
 
 #content h1 {
@@ -217,7 +217,7 @@ ul.menu {
 	width: 100%;
 	/*height: 158px;*/
 	height: 162px;
-	background: url('//www.districtm.com/sites/all/themes/dm/images/bg/shadow_bottom.png') repeat-x bottom left;
+	background: url('/sites/all/themes/dm/images/bg/shadow_bottom.png') repeat-x bottom left;
 }
 
 .front .bottom-wrapper {
@@ -368,129 +368,10 @@ ul.menu {
 /* Background Shadow */
 .shadow-wrapper {
 	height: 100%;
-	background-image: url('//www.districtm.com/sites/all/themes/dm/images/bg/shadow_top.png');
+	background-image: url('/sites/all/themes/dm/images/bg/shadow_top.png');
 	background-position: top left;
 	background-repeat: repeat-x;
 }
 
 
-
-/********** Events Page **********/
-
-.section-events .block.block-views {
-    margin: 0 auto;
-    width: 90%;
-}
-
-.date-nav {
-    margin: 0 auto;
-    padding-bottom: 0;
-    width: 94%;
-}
-
-.view .date-nav-wrapper .date-nav {
-	border-bottom: 1px solid #ccc;
-	padding-bottom: 10px;
-}
-
-.view-calendar .view-header {
-    margin-bottom: 5px;
-}
-
-.pager {
-    margin: 0;
-    padding: 0;
-}
-
-.page-node-13.section-events .node-page h1:after {
-    margin-top: 5px;
-}
-
-.page-node-13.section-events #content h1.title {
-    padding-top: 80px;
-}
-
-.section-events .block-views h2.block-title {
-    display: none;
-}
-
-.block-views .view .date-nav-wrapper .date-prev, .block-views .view .date-nav-wrapper .date-next {
-    list-style: none outside none;
-}
-
-.view .date-nav-wrapper .date-next, .view .date-nav-wrapper .date-prev {
-	background: none;
-}
-
-.view .date-nav-wrapper .date-prev a, .view .date-nav-wrapper .date-next a {
-	transition: .3s all;
-	-moz-transition: .3s all;
-	-webkit-transition: .3s all;
-	-o-transition: .3s all;
-	-ms-transition: .3s all;
-    color: #999;
-    font-family: arial;
-}
-	.view .date-nav-wrapper .date-prev a:hover, .view .date-nav-wrapper .date-next a:hover {
-		color: #000;
-	}
-
-.calendar .views-field.views-field-edit-node {
-    display: none;
-}
-
-.view-content {
-    overflow: auto;
-}
-
-.view-content .inner {
-    float: left;
-    margin: 0 8px 10px;
-    width: 30%;
-}
-
-.calendar img {
-    display: block;
-    height: 111px;
-    width: 100%;
-}
-
-#calendar_div, .calendar_control, .calendar_links, .calendar_header, .calendar {
-	width: 100%;
-}
-
-.calendar .contents {
-    position: relative;
-}
-
-.calendar span.field-content {
-    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.85);
-    bottom: 0;
-    font-weight: bold;
-    left: 0;
-    position: absolute;
-    right: 0;
-}
-
-.calendar span.field-content a {
-    color: #000;
-    display: block;
-    font-family: arial;
-    font-size: 14px;
-}
-
-.calendar .cutoff {
-    display: none;
-}
-
-.node-type-event-calendar .field-name-event-calendar-date .field-label, .node-type-event-calendar .field-name-event-calendar-date .field-items, .node-type-event-calendar .field-name-event-calendar-date .field-items .field-item {
-    display: inline;
-}
-
-.node-type-event-calendar .field-name-field-event-image .field-label {
-    display: none;
-}
-
-.node-type-event-calendar .field-name-field-event-image .field-item img {
-    margin-top: 10px;
-}
+	
