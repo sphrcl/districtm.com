@@ -73,7 +73,7 @@ html {
 }
 
 .not-front #content {
-	width: 625px;
+	width: 635px;
 	height: 665px;
 	margin: 81px auto 0;
 	background: url("//www.districtm.com/sites/all/themes/dm/images/sub_circle.png") no-repeat center center transparent;
@@ -382,6 +382,11 @@ ul.menu {
     width: 77%;
 }
 
+.node-type-event-calendar article {
+	margin: 0 auto;
+	max-width: 500px;
+}
+
 .date-nav {
     margin: 0 auto;
     padding-bottom: 0;
@@ -447,6 +452,13 @@ ul.menu {
     float: left;
     margin: 0 8px 10px;
     width: 30%;
+}
+
+.node-type-event-calendar #content h1 {
+	margin: 0 auto 10px;
+	padding-top: 90px;
+	text-align: center;
+	width: 460px;
 }
 
 .calendar img {
