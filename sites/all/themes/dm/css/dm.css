@@ -73,8 +73,8 @@ html {
 }
 
 .not-front #content {
-	width: 587px;
-	height: 587px;
+	width: 625px;
+	height: 665px;
 	margin: 81px auto 0;
 	background: url("//www.districtm.com/sites/all/themes/dm/images/sub_circle.png") no-repeat center center transparent;
 }
@@ -379,7 +379,7 @@ ul.menu {
 
 .section-events .block.block-views {
     margin: 0 auto;
-    width: 90%;
+    width: 77%;
 }
 
 .date-nav {
