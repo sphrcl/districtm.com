@@ -412,7 +412,7 @@ ul.menu {
 }
 
 .page-node-13.section-events #content h1.title {
-    padding-top: 80px;
+	padding-top: 0;
 }
 
 .section-events .block-views h2.block-title {
@@ -459,10 +459,12 @@ ul.menu {
 /* Events Calendar Node Type */
 
 .section-events.not-front #content {
-  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.9);
-  border-radius: 50%;
-  overflow: hidden;
-  padding: 40px;
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.9);
+	border-radius: 50%;
+	height: 665px;
+	overflow: hidden;
+	padding: 80px;
+	width: 665px;
 }
 
 
